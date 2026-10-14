@@ -1,5 +1,9 @@
 html{
     background-color: white;
+        font-family: "Crimson Pro", serif;
+    body {
+        margin: 0;
+    }
 }
 
 .wrapper {
@@ -9,23 +13,49 @@ html{
 
 .site-header {
     background-color: #cd93c9;
-    color:#413040
+    color:#413040;
+    border-bottom: 15px solid white;
+    padding: 10px;
+}
+
+.header-link {
+    color: #413040;
 }
 
 .site-main {
     background-color: #e4dd78;
+    padding: 10px;
+    border-bottom: 15px solid white;
+}
+
+.article-link {
+    color: rgb(8, 8, 171);
 }
 
 .article-section {
     background-color: #dab94a;
+    padding: 10px;
+    border-bottom: 10px solid #e4dd78;
 }
 
 .site-aside {
     background-color: #eaaecb;
-    color: #654162;
+    color: #73206c;
+    padding: 10px;
+    border-bottom: 15px solid white;
 }
 
 .site-footer {
     background-color: #8dd5db;
-    color:#264244
+    color:#264244;
+    padding: 10px;
+    line-height: 1.5;
+}
+.footer-link {
+    color: #264244;
+}
+
+.site-address {
+    border-top: 3px solid black;
+    padding: 10px;
 }
